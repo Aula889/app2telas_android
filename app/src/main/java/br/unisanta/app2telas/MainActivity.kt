@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
             prod = Produto(nome,preco)
             val builder = AlertDialog.Builder(this)
             builder.setTitle("Sucesso!")
-            builder.setMessage("Cadastro Ok!")
+            builder.setMessage("Cadastro Ok!!")
             val dialog = builder.create()
             dialog.show()
             edtNome.text.clear()
